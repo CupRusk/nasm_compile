@@ -26,7 +26,7 @@ def main():
     
     # Навсякий случай вторая проверка.
     if os.path.exists(outfile):
-        size_kb = os.path.getsize(outfile) // 1024
+        size_kb = os.path.getsize(outfile) 
         calc_size(size_kb)
         exit()
     else:
